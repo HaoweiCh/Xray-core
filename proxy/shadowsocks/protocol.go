@@ -7,12 +7,12 @@ import (
 	"hash/crc32"
 	"io"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/crypto"
-	"github.com/xtls/xray-core/common/drain"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/haoweich/xray-core/common"
+	"github.com/haoweich/xray-core/common/buf"
+	"github.com/haoweich/xray-core/common/crypto"
+	"github.com/haoweich/xray-core/common/drain"
+	"github.com/haoweich/xray-core/common/net"
+	"github.com/haoweich/xray-core/common/protocol"
 )
 
 const (

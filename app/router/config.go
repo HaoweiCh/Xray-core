@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/haoweich/xray-core/common/net"
+	"github.com/haoweich/xray-core/features/outbound"
+	"github.com/haoweich/xray-core/features/routing"
 )
 
 // CIDRList is an alias of []*CIDR to provide sort.Interface.

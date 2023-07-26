@@ -4,15 +4,15 @@ import (
 	"context"
 	"os"
 
+	"github.com/haoweich/xray-core/common/net"
+	"github.com/haoweich/xray-core/common/net/cnc"
+	"github.com/haoweich/xray-core/common/session"
+	"github.com/haoweich/xray-core/proxy"
+	"github.com/haoweich/xray-core/transport"
+	"github.com/haoweich/xray-core/transport/internet"
+	"github.com/haoweich/xray-core/transport/pipe"
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/pipe"
 )
 
 var _ N.Dialer = (*XrayDialer)(nil)

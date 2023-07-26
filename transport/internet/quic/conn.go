@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/haoweich/xray-core/common"
+	"github.com/haoweich/xray-core/common/buf"
+	"github.com/haoweich/xray-core/common/net"
+	"github.com/haoweich/xray-core/transport/internet"
 	"github.com/quic-go/quic-go"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
 )
 
 type sysConn struct {

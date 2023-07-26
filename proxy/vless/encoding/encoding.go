@@ -1,6 +1,6 @@
 package encoding
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/haoweich/xray-core/common/errors/errorgen
 
 import (
 	"bytes"
@@ -13,17 +13,17 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/transport/internet/reality"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/haoweich/xray-core/common/buf"
+	"github.com/haoweich/xray-core/common/errors"
+	"github.com/haoweich/xray-core/common/net"
+	"github.com/haoweich/xray-core/common/protocol"
+	"github.com/haoweich/xray-core/common/session"
+	"github.com/haoweich/xray-core/common/signal"
+	"github.com/haoweich/xray-core/features/stats"
+	"github.com/haoweich/xray-core/proxy/vless"
+	"github.com/haoweich/xray-core/transport/internet/reality"
+	"github.com/haoweich/xray-core/transport/internet/stat"
+	"github.com/haoweich/xray-core/transport/internet/tls"
 )
 
 const (

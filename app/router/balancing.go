@@ -3,9 +3,9 @@ package router
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/features/extension"
-	"github.com/xtls/xray-core/features/outbound"
+	"github.com/haoweich/xray-core/common/dice"
+	"github.com/haoweich/xray-core/features/extension"
+	"github.com/haoweich/xray-core/features/outbound"
 )
 
 type BalancingStrategy interface {

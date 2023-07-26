@@ -4,14 +4,14 @@ import (
 	"context"
 	"io"
 
+	"github.com/haoweich/xray-core/common/buf"
+	"github.com/haoweich/xray-core/common/errors"
+	"github.com/haoweich/xray-core/common/net"
+	"github.com/haoweich/xray-core/common/session"
+	"github.com/haoweich/xray-core/features/routing"
+	"github.com/haoweich/xray-core/transport"
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
 )
 
 var (
