@@ -19,15 +19,15 @@ import (
 )
 
 var (
-	Version_x byte = 1
-	Version_y byte = 8
-	Version_z byte = 3
+	Version_x byte = 6
+	Version_y byte = 6
+	Version_z byte = 6
 )
 
 var (
-	build    = "Custom"
-	codename = "Xray, Penetrates Everything."
-	intro    = "A unified platform for anti-censorship."
+	build    = "Self-Driven"
+	codename = "X, Connect Everything."
+	intro    = "A unified awesome platform for anti-censorship."
 )
 
 // Version returns Xray's version as a string, in the form of "x.y.z" where x, y and z are numbers.
@@ -39,7 +39,7 @@ func Version() string {
 // VersionStatement returns a list of strings representing the full version info.
 func VersionStatement() []string {
 	return []string{
-		serial.Concat("Xray ", Version(), " (", codename, ") ", build, " (", runtime.Version(), " ", runtime.GOOS, "/", runtime.GOARCH, ")"),
+		serial.Concat("X ", Version(), " (", codename, ") ", build, " (", runtime.Version(), " ", runtime.GOOS, "/", runtime.GOARCH, ")"),
 		intro,
 	}
 }
